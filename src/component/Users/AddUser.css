@@ -1,0 +1,38 @@
+form {
+    border: 1px solid rgb(130, 85, 0);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    font-size: 1.125rem;
+
+}
+
+input {
+    outline: none;
+    font-size: 1.125rem;
+    border: none;
+    border-bottom: 1px solid rgb(119, 77, 0);
+}
+
+input:focus{
+    outline: 1px solid rgba(116, 75, 0, 0.3);
+}
+
+.username,
+.age {
+    display: flex;
+    flex-direction: column;
+    color: rgb(80, 57, 28);
+    font-weight: 700;
+}
+
+.addBtn {
+    width: 100%;
+    padding: 0.25rem;
+    background-color: rgb(255, 208, 121);
+    border: none;
+    font-size: 1.135rem;
+}

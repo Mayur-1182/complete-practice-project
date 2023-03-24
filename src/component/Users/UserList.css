@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+}
+.userList{
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+    margin-block:0.25rem ;
+    border-radius: 0.25rem;
+    border: 1px solid rgb(153, 128, 81);
+}
+
+.userList p{
+    color: rgb(82, 82, 82);
+}
